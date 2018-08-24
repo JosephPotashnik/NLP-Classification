@@ -1,0 +1,136 @@
+id	conversation_id	agent_type	text	gold_label_simple	gold_label_extended	predicted_label_simple	predicted_label_extended	confidence
+206	4	Doctor	Hello, my name's doctor Gohil, err, welcome to the surgery how can I help you?	Question	OpenQuestion	Question	OpenQuestion	
+207	4	Patient	Err hi doc, I'm sorry, it's thanks for seeing me, err, err, I'm in so much pain	Response	Statement	Response	BinaryOpenResponse	
+208	4	Doctor	Ah okay, erm, where where are you in pain?	Question	ContextQuestion	Question	BinaryOpenQuestion	
+209	4	Patient	Err everywhere doc, eurgh Jesus	Response	ContextResponse	Response	BinaryResponse	
+210	4	Doctor	How long have you had this pain?	Question	ContextQuestion	Question	ContextQuestion	
+211	4	Patient	Err I err I don't know, erm, hours, minutes, I've lost count	Response	ContextResponse	Response	ContextResponse	
+212	4	Doctor	Okay, before we start can I just check how old you are?	Question	ContextQuestion	Question	ContextQuestion	
+213	4	Patient	Err, erm, err, sorry I know I should, err, twenty what is it twenty three twenty four?	Response	ContextResponse	Response	BinaryOpenResponse	
+214	4	Doctor	And what's your name?	Question	ContextQuestion	Question	BinaryQuestion	
+215	4	Patient	Daf	Response	ContextResponse	Response	BinaryResponse	
+216	4	Doctor	Okay so Daf you are twenty three years old and you've come in with some pain	Statement	Statement	Question	Statement	
+217	4	Patient	No sorry I'm twenty four	Statement	Statement	Response	Statement	
+218	4	Doctor	Twenty four	Statement	Statement	Question	Statement	
+219	4	Patient	Yeah	Response	Confirmation	Response	BinaryResponse	
+220	4	Doctor	Erm and I need some more information about where this pain is, and what your main problem is	Statement	ContextQuestion	Question	Statement	
+221	4	Patient	Yeah. Okay.	Response	Confirmation	Response	Confirmation	
+222	4	Doctor	Daf are you still with me?	Question	BinaryQuestion	Question	ContextQuestion	
+223	4	Patient	Sorry yeah yeah	Response	BinaryResponse	Response	BinaryResponse	
+224	4	Doctor	Can you tell me a bit a bit more about the pain?	Question	ContextQuestion	Question	OpenQuestion	
+225	4	Patient	Mm	Response	Confirmation	Response	Confirmation	
+226	4	Doctor	Where is it worst?	Question	ContextQuestion	Question	MultiChoiceQuestion	
+227	4	Patient	My erm, my tummy I think	Response	ContextResponse	Response	BinaryResponse	
+228	4	Doctor	Okay, and, erm, have you got pain anywhere else apart from your tummy?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+229	4	Patient	Err a at times but not now, now it's really bad in my tummy	Response	BinaryOpenResponse	Response	ContextResponse	
+230	4	Doctor	Okay. Erm, before we go any further with the pain, I want to ask you some questions. They may might sound a bit silly but do you know what day it is today?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+231	4	Patient	Erm. I was in work yesterday. I work Monday to Wednesday, so today must be Thursday	Response	BinaryOpenResponse	Response	ContextResponse	
+232	4	Doctor	Okay and do you know what the date is?	Question	BinaryOpenQuestion	Question	ContextQuestion	
+233	4	Patient	Oh, err, almost Christmas	Response	BinaryOpenResponse	Response	BinaryResponse	
+234	4	Doctor	And do you know what the time is right now roughly?	Question	BinaryOpenQuestion	Question	ContextQuestion	
+235	4	Patient	Yeah I'll look at my watch, it's half three	Response	BinaryOpenResponse	Response	ContextResponse	
+236	4	Doctor	And do you know who you are speaking to at the moment?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+237	4	Patient	Err. Err some Asian doctor	Response	BinaryOpenResponse	Response	BinaryResponse	
+238	4	Doctor	Yeah that's close enough. Where where are you based at the moment?	Question	ContextQuestion	Question	BinaryQuestion	
+239	4	Patient	Err I'm just in London	Response	ContextResponse	Response	ContextResponse	
+240	4	Doctor	And is anyone else around with you?	Question	BinaryOpenQuestion	Question	ContextQuestion	
+241	4	Patient	No, erm, my mum moved out weeks ago but I don't think you really want to know much about that to be honest	Response	BinaryOpenResponse	Response	BinaryOpenResponse	
+242	4	Doctor	Not particularly no. Apart from the pain do you have any other problems?	Question	OpenQuestion	Question	BinaryOpenQuestion	
+243	4	Patient	Not in ten minutes	Response	ContextResponse	Response	BinaryResponse	
+244	4	Doctor	Okay so let's have a talk more about the pain. Apart from the pain in your belly, do you have pain in your head?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+245	4	Patient	No I I do I do struggle with headaches, erm, but. To be honest that's been better in the last couple of days	Response	BinaryOpenResponse	Response	ContextQuestion	
+246	4	Doctor	Okay do you take medications for headaches normally?	Question	BinaryOpenQuestion	Question	ContextQuestion	
+247	4	Patient	Err no, I I've asked I've asked my doctor for them lots of times, I I call him quite often, that's why I've come erm to you today is because I've had enough of him cause he doesn't give me any tablets	Response	BinaryOpenResponse	Response	Statement	
+248	4	Doctor	Do you know if he's given you any before and what they're called?	Question	ContextQuestion	Question	BinaryQuestion	
+249	4	Patient	I there was something called, erm, para para set err paras para seat a one?	Response	ContextResponse	Response	BinaryResponse	
+250	4	Doctor	Okay. And when you took that tablet, can you remember if it helped?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+251	4	Patient	With my headache that's a completely different problem doctor, today it's my tummy	Response	Statement	Question	ContextResponse	
+252	4	Doctor	Okay	Response	Confirmation	Question	Confirmation	
+253	4	Patient	Why why are you asking about my head that was weeks ago	Question	Statement	Response	BinaryOpenQuestion	
+254	4	Doctor	So you haven't had any tummy pain where you've had to take some tablets for it?	Question	BinaryOpenQuestion	Question	BinaryQuestion	
+255	4	Patient	No I mean, err, we've all had tummy pain before haven't we but nothing that I've needed to call a doctor about this is really really bad I'm not sure you're taking me seriously	Response	BinaryOpenResponse	Response	ContextResponse	
+256	4	Doctor	I I'm sorry you think that, let's talk what more about your tummy pain, when did it start can you remember?	Question	ContextQuestion	Question	ContextResponse	
+257	4	Patient	I woke up with it this morning. But it's really changing	Response	ContextResponse	Response	ContextResponse	
+258	4	Doctor	And tell tell me how	Question	ContextQuestion	Question	OpenQuestion	
+259	4	Patient	So it started a bit everywhere, and now even during this phone call, erm, it it feels as if it's much worse in the bottom of my tummy	Response	ContextResponse	Response	ContextResponse	
+260	4	Doctor	Okay. And have you vomited at all?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+261	4	Patient	Yeah, yeah, didn't I tell you that? I thought I told you that	Response	BinaryOpenResponse	Response	OpenQuestion	
+262	4	Doctor	No you didn't, but it's important we get the right answers. Can you remember what it is you vomited?	Question	ContextQuestion	Question	BinaryOpenQuestion	
+263	4	Patient	Erm, well, it's vomit doctor	Response	ContextResponse	Response	ContextResponse	
+264	4	Doctor	Was it was there any blood in the vomit?	Question	BinaryQuestion	Question	ContextQuestion	
+265	4	Patient	Oh no, I I'd have told you that	Response	BinaryResponse	Response	BinaryResponse	
+266	4	Doctor	Okay. And apart from the tummy pain have you noticed your tummy getting any bigger?	Question	ContextQuestion	Question	BinaryOpenQuestion	
+267	4	Patient	No I'm not pregnant	Response	ContextResponse	Response	BinaryResponse	
+268	4	Doctor	Okay good	Statement	Statement	Question	Confirmation	
+269	4	Patient	Someone else said that to me the other day	Statement	Statement	Response	Statement	
+270	4	Doctor	Good and how this is a very embarrassing question but are you passing wind from the back passage	Question	BinaryOpenQuestion	Question	BinaryQuestion	
+271	4	Patient	Yeah we all do	Response	BinaryOpenResponse	Response	BinaryResponse	
+272	4	Doctor	Good. So the tummy pain is getting worse at the moment?	Question	ContextQuestion	Question	MultiChoiceQuestion	
+273	4	Patient	Mmm	Response	ContextResponse	Response	BinaryResponse	
+274	4	Doctor	And it's going towards the lower half of your belly?	Question	BinaryOpenQuestion	Question	BinaryQuestion	
+275	4	Patient	Sorry I I'm I'm in so much pain I I think I'm gonna have to go to the hospital	Response	Statement	Response	Statement	
+276	4	Doctor	I think that's probably a good idea, shall I give you the address for the nearest hospital?	Question	BinaryQuestion	Question	BinaryQuestion	
+277	4	Patient	Yes, please	Response	BinaryResponse	Response	BinaryResponse	
+278	4	Doctor	Okay let me find out, let me put you on hold	Statement	Other	Question	BinaryOpenQuestion	
+279	4	Patient	Thanks	Statement	Other	Response	Other	
+348	6	Doctor	Hi my name's doctor Gohil, how can I help you?	Question	OpenQuestion	Question	OpenQuestion	
+349	6	Patient	Hi just err just need a sick note basically I've only got two minutes	Response	Statement	Response	Statement	
+350	6	Doctor	Okay, erm, what do you need a sick note for?	Question	ContextQuestion	Question	BinaryQuestion	
+351	6	Patient	Oh erm I've had it for err months mate, erm, actually I've just cause I just moved over to this erm GP at hand thingy, erm so I just need to continue it really, it's an absolute ballache to get it from my GP before	Response	ContextResponse	Response	Statement	
+352	6	Doctor	Yeah I can understand. Erm before I do, because this is the first time we've met we will need to get some information	Question	BinaryQuestion	Question	Other	
+353	6	Patient	It's good to meet you	Statement	Other	Response	BinaryResponse	
+354	6	Doctor	You too	Statement	Other	Question	Statement	
+355	6	Doctor	Tell me a little bit more about yourself	Question	OpenQuestion	Question	ContextQuestion	
+356	6	Patient	Err err erm I've it's Tom, err I don't err I'm a builder, well I'm not a builder anymore but	Response	ContextResponse	Response	BinaryOpenResponse	
+357	6	Doctor	Okay so normally when you transfer from your old place to a new place they send over	Statement	Statement	Question	Confirmation	
+358	6	Patient	Certainly I I actually just need a sick note please	Statement	Statement	Response	Statement	
+359	6	Doctor	Yeah so before I can give it to you I'll need see to get some information so can you tell me a little bit more about what the problem is, and what kind of medical history you have	Question	ContextQuestion	Question	OpenQuestion	
+360	6	Patient	Oh it's just err my back mate, as erm a builder, err as is, and erm I've got a bad back	Response	ContextResponse	Response	Statement	
+361	6	Doctor	Okay and how long have you had a bad back for?	Question	ContextQuestion	Question	ContextQuestion	
+362	6	Patient	Err I dunno err I went to went on our first holiday on on the second nine months ago? Must be yeah nine months	Response	ContextResponse	Response	MultiChoiceResponse	
+363	6	Doctor	Whereabouts did you go?	Question	ContextQuestion	Question	ContextQuestion	
+364	6	Patient	Oh Barbados it was fucking something	Response	ContextResponse	Response	BinaryResponse	
+365	6	Doctor	Very nice and have you been on any other holidays since?	Question	BinaryOpenQuestion	Question	ContextQuestion	
+366	6	Patient	Err yeah we tend to go probably once every couple of months	Response	BinaryOpenResponse	Response	BinaryResponse	
+367	6	Doctor	And this is all with your bad back?	Question	BinaryQuestion	Question	MultiChoiceQuestion	
+368	6	Patient	Yeah, bad back doesn't stop me does it right	Response	BinaryResponse	Response	ContextResponse	
+369	6	Doctor	Yeah yeah good. Erm tell me more about your bad back, whereabouts is it bad?	Question	ContextQuestion	Question	MultiChoiceQuestion	
+370	6	Patient	Just err, err lower, bit upper, most mostly lower	Response	ContextResponse	Response	BinaryOpenResponse	
+371	6	Doctor	Okay. And has your old GP organised any tests for you to make sure we can do any something about it?	Question	ContextQuestion	Question	ContextQuestion	
+372	6	Patient	So he was actually quite young erm, he was a nice guy but I just found it a bit annoying to get an appointment with him	Response	ContextResponse	Response	BinaryOpenResponse	
+373	6	Doctor	So have you had any tests on your back?	Question	ContextQuestion	Question	BinaryQuestion	
+374	6	Patient	My back?	Question	BinaryQuestion	Response	ContextQuestion	
+375	6	Doctor	Yeah	Response	BinaryResponse	Question	Confirmation	
+376	6	Patient	Err no? He he poked it a bit and said is that is that painful and I said yeah it's painful like I know it's painful I came to you with a bad back	Response	ContextResponse	Statement	ContextResponse	
+377	6	Doctor	Okay, erm. And apart from having a bad back, do you have any other medical problems?	Question	BinaryQuestion	Question	BinaryOpenQuestion	
+378	6	Patient	Nah, erm I'm only twenty nine	Response	BinaryResponse	Response	BinaryResponse	
+379	6	Doctor	Okay and are you allergic to anything?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+380	6	Patient	Erm, err err my mum said I was allergic to something as a kid, but err I never really took any notice of her	Response	BinaryOpenResponse	Response	BinaryOpenResponse	
+381	6	Doctor	Okay, and do you take any meds or do you drink or smoke?	Question	ContextQuestion	Question	MultiChoiceQuestion	
+382	6	Patient	Sorry, what are meds?	Question	ContextQuestion	Response	ContextQuestion	
+383	6	Doctor	Any medications?	Question	ContextQuestion	Question	BinaryOpenQuestion	
+384	6	Patient	Oh, err like tablets?	Question	ContextQuestion	Response	BinaryOpenQuestion	
+385	6	Doctor	Yeah. Any tablets at all?	Question	ContextQuestion	Question	BinaryOpenQuestion	
+386	6	Patient	So I take err something before I go to sleep, makes the back better and it basically just gets me to sleep	Response	ContextResponse	Response	BinaryResponse	
+387	6	Doctor	And do you drink or smoke at the moment?	Question	BinaryQuestion	Question	MultiChoiceQuestion	
+388	6	Patient	Err yeah. Yeah I do yeah with the lads	Response	BinaryResponse	Response	BinaryResponse	
+389	6	Doctor	Do you what was that smoking or drinking?	Question	BinaryOpenQuestion	Question	ContextQuestion	
+390	6	Patient	Err a bit of both, bit of weed and stuff	Response	BinaryOpenResponse	Response	BinaryOpenResponse	
+391	6	Doctor	Any any other things that you can take? Do you take anything else? Apart from weed?	Question	BinaryOpenQuestion	Question	BinaryOpenQuestion	
+392	6	Patient	Err used to	Response	BinaryOpenResponse	Response	BinaryResponse	
+393	6	Doctor	Err how and what was it and how long ago?	Question	ContextQuestion	Question	ContextQuestion	
+394	6	Patient	Err so I err I moved to like Chelsea region a few years ago and tried out like crack and stuff like that but I don't I haven't done it in a while actually	Response	ContextResponse	Response	ContextResponse	
+395	6	Doctor	Okay. And apart from these things, is there anything else you need to tell me before I can give you a sick note?	Question	OpenQuestion	Question	OpenQuestion	
+396	6	Patient	Erm, no to be honest mate erm I need to err pick the kids up, so err if we can crack on that'd be good	Response	ContextResponse	Response	BinaryOpenResponse	
+397	6	Doctor	Okay. Unfortunately because this is a telephone call I won't be able to give you a sick note because I'm not physically with you	Statement	Statement	Question	Statement	
+398	6	Patient	Oh mate	Response	Other	Response	BinaryResponse	
+399	6	Doctor	What we'll need to do is get you into the practice to have a look	Statement	Statement	Statement	Statement	
+400	6	Patient	Oh this was the reason I joined GP at hand	Statement	Statement	Response	ContextQuestion	
+401	6	Doctor	Yeah unfortunately because sick notes are a physical thing I can't hand it over to you	Statement	Statement	Question	Confirmation	
+402	6	Patient	But can we just print it or just email it to me, I'll give you my email address	Question	BinaryOpenQuestion	Response	ContextQuestion	
+403	6	Doctor	No unfortunately it it doesn't work like that we have to	Response	BinaryOpenResponse	Question	Confirmation	
+404	6	Patient	It's Tom Jones at hot mail dot com	Statement	Statement	Response	Statement	
+405	6	Doctor	We have to. Okay. Unfortunately it won't work it won't the system won't let me give you a sick note until I've seen you physically	Statement	Statement	Statement	Statement	
+406	6	Patient	Right	Response	Confirmation	Response	BinaryResponse	
+407	6	Doctor	So what we'll need to do is I've got this information down, erm which means when you come in, the process will be much quicker. So what you'll need to do is press the button that says book an appointment	Statement	Statement	Statement	Statement	
+408	6	Patient	Err to be honest, I'm gonna speak to someone else, I'm gonna hang up, see you later	Statement	Other	Statement	Statement	
